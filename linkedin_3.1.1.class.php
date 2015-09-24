@@ -132,7 +132,7 @@ class LinkedIn {
 	 *         Array containing retrieval success, LinkedIn response.
 	 */
 	public function bookmarkJob($jid) {
-	  // check passed data
+	  // check passed datas
 	  if(!is_string($jid)) {
 	    // bad data passed
 		  throw new LinkedInException('LinkedIn->bookmarkJob(): bad data passed, $jid must be of type string.');
