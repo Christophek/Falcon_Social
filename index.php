@@ -31,7 +31,7 @@ try {
         * håndtere brugere initieret LinkedIn-forbindelse. Opret LinkedIn objekt.
        */
         
-      //tjek den korrekte HTTP-protokollen (dvs. er dette script bliver serveret via http eller https)
+      //tjek den korrekte HTTP-protokol(dvs. at dette script bliver serveret via http eller https)
       if($_SERVER['HTTPS'] == 'on') {
         $protocol = 'https';
       } else {
