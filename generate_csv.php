@@ -15,7 +15,7 @@ if($_GET)
 
 	# prepare data for the csv
 	$column = 'Name, Position, Summary';
-	$data 	= 'Christophe Kolbeck, Web-Developer & Digital Designer, Always striving to deliver stunning digital experiences. If you would like to work with me or hire then dont hesitate to get in touch. I dont bite... hard...';
+	$data 	= 'Christophe Kolbeck, Web-Developer & Digital Designer, Always striving to deliver stunning Digital experiences. If you would like to work with me or hire then dont hesitate to get in touch. I dont bite... hard...';
 
 	$column = explode(',', $column);
 	$data 	= explode(',', $data);
